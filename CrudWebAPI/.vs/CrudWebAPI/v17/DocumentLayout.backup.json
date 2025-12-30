@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6B5D4A1-E898-4256-8CCB-2A04A72EE5F1}|CrudWebAPI\\CrudWebAPI.csproj|d:\\umer\\dotnet\\complete-crud\\crudwebapi\\crudwebapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6B5D4A1-E898-4256-8CCB-2A04A72EE5F1}|CrudWebAPI\\CrudWebAPI.csproj|solutionrelative:crudwebapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6B5D4A1-E898-4256-8CCB-2A04A72EE5F1}|CrudWebAPI\\CrudWebAPI.csproj|d:\\umer\\dotnet\\complete-crud\\crudwebapi\\crudwebapi\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B5D4A1-E898-4256-8CCB-2A04A72EE5F1}|CrudWebAPI\\CrudWebAPI.csproj|solutionrelative:crudwebapi\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B5D4A1-E898-4256-8CCB-2A04A72EE5F1}|CrudWebAPI\\CrudWebAPI.csproj|d:\\umer\\dotnet\\complete-crud\\crudwebapi\\crudwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B5D4A1-E898-4256-8CCB-2A04A72EE5F1}|CrudWebAPI\\CrudWebAPI.csproj|solutionrelative:crudwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B5D4A1-E898-4256-8CCB-2A04A72EE5F1}|CrudWebAPI\\CrudWebAPI.csproj|d:\\umer\\dotnet\\complete-crud\\crudwebapi\\crudwebapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B5D4A1-E898-4256-8CCB-2A04A72EE5F1}|CrudWebAPI\\CrudWebAPI.csproj|solutionrelative:crudwebapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B5D4A1-E898-4256-8CCB-2A04A72EE5F1}|CrudWebAPI\\CrudWebAPI.csproj|d:\\umer\\dotnet\\complete-crud\\crudwebapi\\crudwebapi\\services\\tokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B5D4A1-E898-4256-8CCB-2A04A72EE5F1}|CrudWebAPI\\CrudWebAPI.csproj|solutionrelative:crudwebapi\\services\\tokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6B5D4A1-E898-4256-8CCB-2A04A72EE5F1}|CrudWebAPI\\CrudWebAPI.csproj|d:\\umer\\dotnet\\complete-crud\\crudwebapi\\crudwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,38 +33,68 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\CrudWebAPI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "CrudWebAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\CrudWebAPI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "CrudWebAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAADwvyIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\CrudWebAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CrudWebAPI\\Models\\User.cs",
+              "ToolTip": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\CrudWebAPI\\Models\\User.cs",
+              "RelativeToolTip": "CrudWebAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T15:28:18.854Z",
+              "WhenOpened": "2025-12-30T17:14:00.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\CrudWebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CrudWebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\CrudWebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CrudWebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T16:45:11.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\CrudWebAPI\\Helpers\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "CrudWebAPI\\Helpers\\PasswordHasher.cs",
+              "ToolTip": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\CrudWebAPI\\Helpers\\PasswordHasher.cs",
+              "RelativeToolTip": "CrudWebAPI\\Helpers\\PasswordHasher.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T17:04:54.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenServices.cs",
+              "DocumentMoniker": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\CrudWebAPI\\Services\\TokenServices.cs",
+              "RelativeDocumentMoniker": "CrudWebAPI\\Services\\TokenServices.cs",
+              "ToolTip": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\CrudWebAPI\\Services\\TokenServices.cs",
+              "RelativeToolTip": "CrudWebAPI\\Services\\TokenServices.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T05:56:34.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\CrudWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "CrudWebAPI\\Program.cs",
               "ToolTip": "D:\\Umer\\dotNet\\Complete-Crud\\CrudWebAPI\\CrudWebAPI\\Program.cs",
               "RelativeToolTip": "CrudWebAPI\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAowCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T10:25:16.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T10:25:16.412Z"
             }
           ]
         }

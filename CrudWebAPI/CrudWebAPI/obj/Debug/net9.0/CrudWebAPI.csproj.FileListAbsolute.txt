@@ -163,3 +163,5 @@ D:\Umer\dotNet\Complete-Crud\CrudWebAPI\CrudWebAPI\obj\Debug\net9.0\refint\CrudW
 D:\Umer\dotNet\Complete-Crud\CrudWebAPI\CrudWebAPI\obj\Debug\net9.0\CrudWebAPI.pdb
 D:\Umer\dotNet\Complete-Crud\CrudWebAPI\CrudWebAPI\obj\Debug\net9.0\CrudWebAPI.genruntimeconfig.cache
 D:\Umer\dotNet\Complete-Crud\CrudWebAPI\CrudWebAPI\obj\Debug\net9.0\ref\CrudWebAPI.dll
+D:\Umer\dotNet\Complete-Crud\CrudWebAPI\CrudWebAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Umer\dotNet\Complete-Crud\CrudWebAPI\CrudWebAPI\obj\Debug\net9.0\CrudWebAPI.sourcelink.json
