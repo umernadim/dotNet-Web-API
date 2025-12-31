@@ -22,9 +22,5 @@ namespace CrudWebAPI.Helpers
             throw new NotImplementedException();
         }
 
-        internal static object HashPassword(object password)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

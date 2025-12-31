@@ -39,11 +39,11 @@ namespace CrudWebAPI.Controllers
         public IActionResult Login(User user)
         {
             var isUser = _context.Users.FirstOrDefault(u => u.Email == user.Email);
-            if(isUser != null)
+            if(isUser == null)
             {
                 return Unauthorized("User not found");
             }
-            if(user.PasswordHash != PasswordHasher.HashPassword(isUser.PasswordHash))
+            if(isUser.PasswordHash != PasswordHasher.HashCode(user.PasswordHash))
             {
                 return Unauthorized("Invalid Password");
             }

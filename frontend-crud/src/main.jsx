@@ -8,6 +8,8 @@ import App from './App.jsx';
 import ViewProduct from './ViewProduct.jsx';
 import AddProduct from './AddProduct.jsx';
 import UpdateProduct from './UpdateProduct.jsx';
+import Register from './Register.jsx';
+import Login from './Login.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
       {
         path: '/UpdateProduct/:id',
         Component: UpdateProduct
+      },
+      {
+        path: '/register',
+        Component: Register
+      },
+      {
+        path: '/login',
+        Component: Login
       },
     ]
   },
